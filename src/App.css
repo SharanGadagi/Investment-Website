@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&family=PT+Serif:ital@1&family=Poppins:wght@100;200;300;400;600;700&family=Roboto+Slab&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: rgba(146, 185, 198, 0.545); */
+}
+body{
+  background-color: rgba(214, 226, 230, 0.329);
+}

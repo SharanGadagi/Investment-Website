@@ -1,0 +1,103 @@
+.drop1{
+    position: absolute;
+    top: 64px;
+    left: 36%;
+    width: 35%;
+    height: 450px;
+    z-index: 99;
+
+}
+.drop2{
+    position: absolute;
+    top: 64px;
+    left: 42%;
+    width: 35%;
+   
+    height: 450px;
+    z-index: 99;
+
+}
+.drop3{
+    position: absolute;
+    top: 64px;
+    left: 56%;
+    width: 35%;
+   
+    height: 450px;
+    z-index: 99;
+
+}
+.drop1Container{
+width: 100%;
+height: 100%;
+display: flex;
+
+}
+
+.drop1Container .dd1Left{
+flex: 1.5;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 20px 25px;
+background-color: rgba(194, 228, 242, 0.919);
+}
+.dd1Left .dd1MainTitle{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.dd1MainTitle .subTitle{
+font-size: 16px;
+font-weight: 600;
+color: rgb(72, 71, 71);
+}
+.dd1Left .dd1Middle{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(1, 104, 1);
+gap: 7px;
+font-weight: 600;
+cursor: pointer;
+}
+.dd1Border{
+    border:1px solid rgba(78, 78, 78, 0.562);
+    width: 100%;
+}
+.dd1Left .dd1Bottom{
+margin-bottom: 150px;
+color: rgb(1, 104, 1);
+font-weight: 600;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.drop1Container .dd1Right{
+flex: 2.5;
+padding: 20px 25px;
+display: flex;
+flex-direction: column;
+gap: 14px;
+background-color: white;
+}
+.dd1Right .dd1RightContainer{
+display: flex;
+flex-direction: column;
+gap: 4px;
+
+}
+.dd1RightContainer .title{
+cursor: pointer;
+}
+.dd1RightContainer .desc{
+font-size: 14px;
+font-weight: 600;
+color: rgb(90, 88, 88);
+}

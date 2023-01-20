@@ -1,0 +1,97 @@
+.products{
+width: 100%;
+margin-bottom: 200px;
+}
+.products .productContainer{
+width: 90%;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+.productContainer .title{
+width: 60%;
+text-align: center;
+}
+
+.productContainer .productsMainBox{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+gap: 50px;
+
+}
+.productsMainBox .card{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 95%;
+/* height: 500px; */
+height: 500px;
+
+}
+.card .leftCard{
+flex: 2;
+
+height: 100%;
+}
+.leftCard img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.card .rightCard{
+flex: 2;
+
+display: flex;
+flex-direction: column;justify-content: center;
+align-items: flex-start;
+gap: 25px;
+height: 100%;
+
+}
+.rightCard .cardTitle{
+margin-top: 25px;
+font-size: 27px;
+}
+.rightCard .cardSubTitle{
+    line-height: 38px;
+font-size: 19px;
+font-weight: 600;
+color: rgb(91, 90, 90);
+}
+.rightCard .cardPoints{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+.cardPoints .cardIcon{
+font-size: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cardPoints .cardPointDesc{
+    font-size: 18px;
+}
+.productContainer .productBtn{
+    margin-top: 20px;
+    width: 25%;
+    padding: 16px 25px;
+    background-color: rgb(7, 95, 76);
+    color: white;
+    border-radius: 15px ;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 18px
+}

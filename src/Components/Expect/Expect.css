@@ -1,0 +1,185 @@
+.expect{
+margin-bottom: 25px;
+width: 100%;
+}
+.expect .expectContainer{
+display: flex;
+flex-direction: column;
+width: 90%;
+margin: auto;
+/* justify-content: center; */
+gap: 50px;
+
+
+}
+
+.expectContainer .topExpect{
+display: flex;
+gap: 35px;
+align-items: center;
+justify-content: center;
+margin-bottom: 0px;
+}
+.topExpect .teLeft{
+    
+padding: 30px 10px;
+flex: 2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+gap: 25px;
+}
+.teLeft .telTop{
+    /* margin-top: 25px; */
+width: 45%;
+border-radius: 8px;
+padding: 18px 0;
+background-color: white;
+
+}
+.teLeft .box1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.teLeft .box2{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 1px;
+}
+.teLeft .telBottom{
+    padding: 0 25px;
+    width: 100%;
+display: flex;
+/* margin-bottom: 25px; */
+justify-content: space-between;
+}
+.telBottom .telbLeft{
+    width: 45%;
+    border-radius: 8px;
+    padding: 18px 0;
+    background-color: white;
+}
+.telBottom .telbTRight{
+    width: 45%;
+    border-radius: 8px;
+    padding: 18px 0;
+    background-color: white;
+}
+
+
+.topExpect .teMiddle{
+flex: 2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+margin-left: 25px;
+}
+.teMiddle .title1{
+color: rgb(2, 79, 70);
+font-size: 25px;
+font-weight: 500;
+}
+.teMiddle .title2{
+font-weight: 600;
+font-size: 35px;
+}
+.teMiddle .title3{
+font-size: 18px;
+color: rgb(49, 49, 49);
+
+}
+.topExpect .teRight{
+    flex: 2;
+}
+
+
+
+.expectContainer .bottomExpect{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.bottomExpect .be1{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.be1 .be1content{
+flex: 2;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.be1content .title{
+font-size: 28px;
+font-weight: 600;
+}
+.be1content .desc{
+display: flex;
+font-size: 19px;
+font-weight: 500;
+color: rgb(51, 51, 51);
+}
+.be1 .beImage{
+flex: 2;
+}
+.beImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottomExpect .be2{
+   
+    width: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 65px;
+
+    }
+    .be2 .beImage{
+        flex: 2;
+        }
+        .beImage img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    .be2 .be2content{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    
+    }
+    .be2content .title{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .be2content .descContainer{
+        display: flex;
+        gap: 15px;
+    }
+    .descContainer .desc{
+  
+    }
+   
+.exeBtn{
+    width: 25%;
+    padding: 12px 25px;
+    background-color: rgb(7, 95, 76);
+    color: white;
+    border-radius: 15px ;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+
+}
